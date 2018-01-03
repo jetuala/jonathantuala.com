@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"> -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="martin.css">
+<link href="https://fonts.googleapis.com/css?family=Sonsie+One" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<!-- David Bradshaw's Image Map Resizer https://github.com/davidjbradshaw/image-map-resizer -->
+<script src="imageMapResizer.min.js"></script>
+</head>
+<body style="background-image:url(../../images/world-map-background.jpg); background-size: 100%;">
+
+  <div data-role="header">
+    <h1 class="w3-center martin-title" style="color: white">Where in the World is Martin Sanfrancisco?</h1>
+  </div>
+
+<div class="opaque w3-round-large">
+    <h2 class="martin-title martin-hud w3-left" style="margin-left: 40px">Current Country: <span style="color:gold" id="currentLocationHTML">New York City</span></h2>
+    <h2 class="martin-title martin-hud w3-right" style="margin-right: 40px">Time Left: <span style="color:gold"><span id="timeHTML">168</span> Hours</span></h2>
+
+    <div class="w3-center w3-row">
+      <div id="smartphone-container" class="w3-col l3 s12">
+        <img id="smartphone" src="../../images/smartphone2.png" border="0" width="340" height="480" orgWidth="340" orgHeight="480" usemap="#image-maps-2017-12-11-140147" alt="" />
+          <map name="image-maps-2017-12-11-140147" id="ImageMapsCom-image-maps-2017-12-11-140147">
+            <area id="phoneButton" alt="Phone" title="Phone" shape="rect" coords="102,156,159,213" style="outline:none;" target="_self" onclick="callChief()"    />
+            <area id="getClueButton" alt="Investigate" title="Investigate" shape="rect" coords="186,157,243,214" style="outline:none;" target="_self" onclick="game.getClue()"    />
+            <area id="travelMenuButton" alt="Travel" title="Travel" shape="rect" coords="102,251,159,308" style="outline:none;" target="_self" onclick="travelMenu()"    />
+            <area id="gameMenuButton" alt="Game Menu" title="Game Menu" hape="rect" coords="187,252,244,309" style="outline:none;" target="_self" onclick="gameMenu()"    />
+            <area shape="rect" coords="338,478,340,480" alt="Image Map" style="outline:none;" title="Image Map" />
+          </map>
+      </div>
+      <div id="cityImageContainer" class="w3-col l5 s12">
+        <img id="cityImage" src="../../images/USA.jpg">
+      </div>
+      <div id="notepadContainer" class="w3-col l3 s12">
+        <div id="notepadText"></div>
+        <div id="travelList">
+          <ul style="list-style: none;">
+            <li>
+              <button class='w3-button w3-round-large w3-white travelButton' onClick='game.startGame()'>Start Game</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</div>
+
+<script src="martin_script.js"></script>
+
+</body>
+</html>
