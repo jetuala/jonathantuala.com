@@ -1,0 +1,64 @@
+.martin-title {
+  font-family: 'Sonsie One', cursive;
+}
+
+body {
+  height: auto;
+}
+
+.opaque {
+  background: rgba(1, 1, 1, 0.3);
+  margin-left: 20px;
+  margin-rigth: 20px;
+}
+
+.martin-hud {
+  font-size: 1.2em;
+  color:white;
+}
+
+#smartphone-container {
+  position: relative;
+  float: left;
+  width: 25%;
+  vertical-align: middle;
+}
+
+#smartphone {
+  position: relative;
+  width: 100%;
+}
+
+#chief {
+  position: absolute;
+  width: 56%;
+  margin-left: 72px;
+  margin-top: 68px;
+  z-index: -1;
+}
+
+#cityImage {
+  width: 100%;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: gold;
+  border-radius: 10px;
+}
+
+#notepadContainer {
+  position: relative;
+}
+
+#notepadText {
+  font-size: 1.7em;
+  relative: absolute;
+  padding-left: 50px;
+  padding-top: 100px;
+  color: white;
+}
+
+.travelButton {
+  margin-bottom: 5px;
+}

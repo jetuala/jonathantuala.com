@@ -1,0 +1,192 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Jonathan E. Tuala</title>
+  <meta name="description" content="Homepage">
+  <meta name="author" content="Jonathan E. Tuala">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top">
+    <div class="w3-bar" id="myNavbar">
+      <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i>
+      </a>
+      <a href="#home" class="w3-bar-item w3-button">HOME</a>
+      <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+      <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+      <a href="#travel" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-plane"></i> TRAVEL</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+      <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      </a>
+      <div id="quote" class="w3-bar-item" style="color:red">Sample text</div>
+    </div>
+  </div>
+  <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+    <div class="w3-display-middle" style="white-space:nowrap;">
+      <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"><span class="red">J</span>ONATHAN <span class="red">E</span>. <span class="red">T</span>UALA</span>
+    </div>
+  </div>
+
+  <div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">ABOUT ME</h3>
+  <p class="w3-center"><em>I love creating, experiencing, feeling.</em></p>
+  <p>Welcome to my website. I hope to develop this site into a central hub of my experiences, study, programming experiments, blogs, social media, pictures, recordings, and general thoughts.</p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-user w3-margin-right"></i><span class="red">J</span>onathan <span class="red">E</span>. <span class="red">T</span>uala</b></p><br>
+      <img src="images/jonathan_6133.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="200" height="100">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p>I am a professional musician in the Las Vegas area. I have spent twenty years playing the piano and singing for choirs, churches, theaters, schools, cruise ships, and individual artists. Lately, I have been exploring other avenues of creation, including front-end web development. I have experience in HTML, CSS, and Javascript, and soon I will expand into other languages, frameworks and libraries, including React, React Native, and C#. Being located in Las Vegas, I hope to gain experience with gaming companies and perhaps work with the Unity engine.</p>
+    </div>
+  </div>
+  <p class="w3-large w3-center w3-padding-16">I am good at:</p>
+  <p class="w3-wide"><i class="fa fa-music"></i>Piano, Singing, Accompaniment</p>
+  <p class="w3-wide"><i class="fa fa-laptop"></i>Web Design (HTML, CSS, JS, jQuery)</p>
+  <p class="w3-wide"><i class="fa fa-lightbulb-o"></i>Creating &#38; Imagining</p>
+  <p class="w3-large w3-center w3-padding-16">I love:</p>
+  <p class="w3-wide"><i class="fa fa-plane"></i>Travel</p>
+  <p class="w3-wide"><i class="fa fa-cutlery"></i>Good food, especially Chicago deep-dish pizza</p>
+  <p class="w3-wide"><i class="fa fa-graduation-cap"></i>Learning</p>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide"><span class="red">P</span>ORTFOLIO</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">MY WORK</h3>
+  <p class="w3-center"><em>I am just beginning with my coding, but here are some of the small projects I have worked on so far.<br> Click on the images go to the respective page.</em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <!-- <div class="w3-col m6 image-container">
+      <div class="centered">Quiz App</div>
+      <a href="quiz.html">
+        <img src="../images/jean-victor-balin-unknown-red-300px.png" style="width:200px" onclick="onClick(this)" class="w3-hover-opacity w3-grayscale-max" alt="Quiz App">
+      </a>
+    </div>
+    -->
+
+    <!--
+    <div class="w3-col m3">
+      <img src="/w3images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="/w3images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m6 image-container">
+      <div class="centered">Random<br>Quotes</div>
+      <img src="../images/placeholder-256x256.gif" style="width:200px" onclick="onClick(this)" class="w3-hover-opacity w3-grayscale-max" alt="Random Quote Generator">
+    </div> -->
+
+    <div class="w3-col m12 image-container">
+      <div class="centered">Martin<br>Sanfrancisco</div>
+      <a href="sanfrancisco.html"><img src="images/earth-clip-art.png" style="width:200px" class="w3-hover-opacity w3-grayscale-max" alt="Martin Sanfrancisco"></a>
+    </div>
+
+    <div class="w3-col m12 image-container">
+      <div class="centered" style="font-size: 1.5em">Random Quotes<br><i>In progress</i></div>
+      <a href="../RandomQuoteMachine/index.html">
+        <img src="images/quote.png" style="width:200px" onclick="onClick(this)" class="w3-hover-opacity w3-grayscale-max" alt="Random Quotes">
+      </a>
+    </div>
+
+    <!-- <div class="w3-col m3">
+      <img src="/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
+    </div> -->
+    <!-- <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button> -->
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<!-- <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div> -->
+
+<!-- Third Parallax Image with Travel Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide"><span class="red">T</span>RAVEL</span>
+  </div>
+</div>
+
+<div class="w3-content w3-container w3-padding-64" id="travel">
+  <h3 class="w3-center">WANDERLUST</h3>
+  <p class="w3-center"><em>I have had some wonderful opportunities to travel within the past five years.<br> Photo galleries are coming soon.</em></p><br>
+
+
+  <!-- Responsive Grid. Two columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <!-- SLIDE SHOW FOR EACH PAGE JONATHAN!!!!!-->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m6 image-container">
+      <div class="centered">Iceland</div>
+      <img src="images/pictures_originals_2015_World___Iceland_Northern_Lights_in_Iceland_095264_.jpg" style="width:100%; height:100%" onclick="onClick(this)" class="w3-hover-opacity w3-grayscale-max" alt="Iceland">
+    </div>
+
+    <div class="w3-col m6 image-container">
+      <div class="centered">New Zealand</div>
+      <img src="images/house-2616607_1920.jpg" style="width:100%; height:100%;" onclick="onClick(this)" class="w3-hover-opacity w3-grayscale-max" alt="New Zealand">
+    </div>
+  </div>
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m6 image-container">
+      <div class="centered">New Orleans</div>
+      <img src="images/neworleans.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity w3-grayscale-max" alt="New Orleans">
+    </div>
+
+    <div class="w3-col m6 image-container">
+      <div class="centered">Mediterranean</div>
+      <img src="images/europe_croatia_mediterranean_rovinj_69337_1920x1080.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity w3-grayscale-max" alt="Mediterranean">
+    </div>
+  </div>
+</div>
+
+<!-- Fourth Parallax Image with Contact Info -->
+<div class="bgimg-4 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-black w3-wide"><span class="red">C</span>ONTACT</span>
+  </div>
+</div>
+
+  <div class="w3-content w3-container w3-padding-64" id="contact">
+    <h3 class="w3-center">GET IN TOUCH</h3>
+    <p class="w3-center"><em>Get in touch with me!<br> jetuala (at) gmail (dot) com <br>Social media links coming soon.</em></p><br>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
