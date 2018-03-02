@@ -1,3 +1,7 @@
+#location, #temp, #condition, #animation {
+  margin: auto;
+}
+
 #by {
   text-align: center;
   color: white;
