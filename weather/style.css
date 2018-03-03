@@ -1,5 +1,15 @@
-#location, #temp, #condition, #animation {
-  margin: auto;
+body {
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+h1, h2 {
+  text-align: center
+}
+
+#data, #temp, #condition, #animation {
+  text-align: center;
 }
 
 #by {
