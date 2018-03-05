@@ -21,6 +21,10 @@ h2 {
   font-size: 0.8em;
 }
 
+h3 {
+  font-size: 1.5em;
+}
+
 #square {
   background-color: white;
   margin: auto;
@@ -30,16 +34,45 @@ h2 {
   position: relative;
   overflow: hidden;
   margin-top: 90px;
-  opacity: 0.8;
+  opacity: 0.5;
 }
 
-#location, #data, #condition, #animation {
+#doubleCol {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#statsCol {
+  flex-grow: 1;
+}
+
+#statsSquare {
+  background-color: white;
+  width: 80%;
+  border-radius: 3px;
+  margin: auto;
+  opacity: 1.0;
+}
+
+#mapCol {
+  flex-grow: 2;
+}
+
+#map {
+  background-color: red;
+}
+
+#location, #data, #temp, #condition, #animation {
   text-align: center;
 }
 
 #weatherIcon {
   height: 20%;
   width: 20%;
+  display: block;
+  margin: auto;
 }
 
 #by {

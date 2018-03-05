@@ -13,6 +13,8 @@ $(document).ready(function(){
         $("#temp").html(x.main.temp + "°C");
         $("#condition").html(x.weather[0].description);
         $("#location").html(x.name + ", " + x.sys.country);
+        var weatherMap = "https://tile.openweathermap.org/map/precipitation_new/8/" + locationData[1] + "/" + locationData[0] + ".png?appid=04ddb73233e5b4099196879435c19a11"
+        $("#map").attr("src", weatherMap);
       });
     });
   }
