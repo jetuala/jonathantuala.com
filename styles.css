@@ -1,0 +1,88 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+h1, h2 {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.red {
+  color: #cc0000;
+}
+
+#quote {
+  text-align: right;
+  color: red;
+  margin-top: 8px;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('/images/background-small.jpeg');
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("/images/piano.jpeg");
+    min-height: 400px;
+}
+
+/* Third image (Travel) */
+.bgimg-3 {
+    background-image: url("/images/black-and-white-sky-flying-holiday.jpg");
+    min-height: 400px;
+}
+
+/* Fourth image (Contact) */
+.bgimg-4 {
+    background-image: url("/images/pexels-photo-263564.jpeg");
+    min-height: 400px;
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    color: red;
+    font-size: 2em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#sanfrancisco {
+	display: block;
+	margin: auto;
+}
+
+.w3-wide {letter-spacing: 10px;}
+/*.w3-hover-opacity {cursor: pointer;}*/
+.w3-grayscale-max:hover {
+  -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+  filter: blur(5px);
+}
+.w3-bar-item {color: white;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
