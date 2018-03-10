@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Local Weather</title>
+  <link href="https://fonts.googleapis.com/css?family=Sacramento|Lora" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- <script type="text/javascript"
+src="https://maps.googleapis.com/maps/api/js?client=04ddb73233e5b4099196879435c19a11"></script>
+</head> -->
+<body>
+  <div id="square">
+    <h1>Local Weather App</h1>
+    <h2>This is a freeCodeCamp exercise designed to retrieve current weather details from the <a href="www.openweathermap.org">openweathermap.org</a> API, based on the user's location.</h2>
+    <!-- <div id="doubleCol"> -->
+      <div id="statsCol" class="column left">
+        <div id="statsSquare">
+          <h3><b>Current Location:</b></h3>
+          <div id="location"></div>
+          <div id="data"></div>
+          <img id="weatherIcon" src="">
+          <div id="temp"></div>
+          <button id="convertButton" onClick="convertTemp(temp)">Convert to Fahrenheit</button>
+          <div id="condition"></div>
+          <div id="animation"></div>
+        </div>
+      </div>
+      <!-- <div id="mapCol" class="column right">
+        <img id="map" src="">
+      </div> -->
+    <!-- </div> -->
+  </div>
+  <div id="by">by jetuala</div>
+</body>
+  <script src="script.js"></script>
+</html>
